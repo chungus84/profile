@@ -1,52 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300&display=swap');
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  background-color: rgb(240,240,240);
-  color: #006E7F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #C2DED1;
+  color: #CDC2AE;
 }
 
-h1 {
-  color: #4E944F;
-  font-family: 'Poppins';
+h1, h2 {
+  font-family: 'Roboto Condensed';
   font-weight: 700;
-}
-p {
-  margin-bottom: 30px;
+  color: #ECE5C7;
 }
 
-h2 {
-  color: #83BD75;
+p {
+  padding-bottom: 20px;
 }
 
 a {
-  color: #024e5a;
   text-decoration: none;
+  color: rgb(237, 181, 11);
+  font-weight: bold;
 }
 
 a:hover {
-  color: #022311;
-}
-
-.img-profile {
-  width: 100px;
-  border-radius: 50%;
+  color: rgba(237, 180, 11, 0.55);
 }
 
 .container {
   width: 700px;
   margin: 40px auto;
-  display: block;
 }
 
-.card-white {
-  background-color: white;
-  padding: 40px;
-  margin: 20px 0;
-  border-radius: 8px;
+.card-blue {
+  background-color: #354259;
   text-align: center;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  margin: 18px 0;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 150px;
 }
 
 ul {
@@ -54,8 +51,8 @@ ul {
 }
 
 .list-inline {
-  list-style: none;
-  padding: 0px;
+  text-decoration: none;
+  padding-left: 0px;
 }
 
 .list-inline li {
@@ -64,24 +61,24 @@ ul {
 
 .social-icon {
   font-size: 34px;
-  color: rgb(210,210,210);
   margin: 8px 24px;
+  color: #CDC2AE;
 }
 
-.btn-blue {
-  background-color: #024e5a;
-  color: white;
-  padding: 16px 8px;
+.btn-cream {
+  background-color: #CDC2AE;
+  color: #354259;
+  padding: 8px 16px;
   border-radius: 8px;
 }
 
-.btn-blue:hover {
-  color: white;
-  background-color: #013138;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+.btn-cream:hover {
+  color: #0d2a5b;
+  background-color: #ECE5C7;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 920px) {
   .container {
     width: 700px;
   }
@@ -93,8 +90,8 @@ ul {
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 520px ) {
   .container {
-    width: 300px;
+    width: 350px;
   }
 }
